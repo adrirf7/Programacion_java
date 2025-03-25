@@ -1,0 +1,12 @@
+package Ejercicio35;
+
+import Ejercicio35.Mensaje;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Mensaje mensaje = new Mensaje();
+		mensaje.imprimirSaludo();
+	}
+
+}

@@ -1,0 +1,16 @@
+package ejercicio37;
+
+public class Vehiculo {
+	public String marca;
+	public String modelo;
+}
+
+class Coche extends Vehiculo{
+	private int puertas;
+	
+	public Coche(String marca, String modelo, int puertas) {
+		this.marca = marca;
+		this.modelo = modelo;
+		this.puertas = puertas;
+	}
+}

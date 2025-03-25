@@ -1,0 +1,21 @@
+package ejercicio39;
+
+public class Electrodomestico {	
+	public String marca;
+	public String precio;
+}
+
+class Lavadora extends Electrodomestico{
+	private double capadicadkg;
+	
+	public void mostrarDatos() {
+		System.out.println("Datos de la lavadora:");
+		System.out.println("Marca: "+ marca);
+		System.out.println("Datos de la lavadora:");
+	}
+}
+
+class Televisor extends Electrodomestico{
+	private double pulgadas;
+	
+}

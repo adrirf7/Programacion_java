@@ -1,0 +1,10 @@
+package Ejercicio36;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		 Ejercicio35.Mensaje.imprimirSaludo();
+
+	}
+
+}

@@ -1,7 +1,0 @@
-package utilidades;
-
-public class Mensaje {
-	public void impirmirSaludo() {
-		System.out.println("Hola desde utilidades!!!");
-	}
-}

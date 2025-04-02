@@ -1,7 +1,0 @@
-package Ejercicio35;
-
-public class Mensaje {
-	public void mostrarMensaje() {
-		Syste,.out.println("¡Hola desde utilidades!");
-	}
-}

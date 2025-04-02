@@ -1,6 +1,0 @@
-package ejercicio39;
-
-public class Electrodomestico {	
-	public String marca;
-	public String precio;
-}

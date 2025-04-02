@@ -1,7 +1,0 @@
-package ejercicio36;
-
-import static Ejercicio35.Mensaje.imprimirSaludo;
-
-public class Principal {
-
-}

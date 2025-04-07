@@ -25,14 +25,15 @@ public class Main {
                  
                  System.out.print("Ingrese el número de chip: ");
                  int chip = scanner.nextInt();
-
-                 System.out.print("Ingrese el nombre: ");
+                 scanner.nextLine();
+                 
+                 System.out.print("Ingrese el nombre: \n");
                  String nombre = scanner.nextLine();
 
                  System.out.print("Ingrese la edad: ");
                  int edad = scanner.nextInt();
                  scanner.nextLine();
-
+                 
                  System.out.print("Ingrese la raza: ");
                  String raza = scanner.nextLine();
 

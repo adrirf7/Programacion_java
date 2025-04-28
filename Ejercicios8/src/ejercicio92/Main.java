@@ -19,14 +19,14 @@ public class Main {
 		//Deserializacion
 		try {
 			ObjectInputStream in = new ObjectInputStream(new FileInputStream("animal.ser"));
-			Animal animalRecuperado = (Animal) in.readObject();
+			Animal animalRecuperado = (Animal)in.readObject();
 			in.close();
 			
 			System.out.println("Datos recuperados:");
 	        System.out.println("Nombre: " + animalRecuperado.nombre);
 	        System.out.println("Especie: " + animalRecuperado.especie);
 
-		} catch (IOException e){
+		} catch (IOException | ClassNotFoundException e){
 			System.out.println("Error leyendo el objeto: " + e.getMessage());
 
 		}

@@ -48,10 +48,13 @@ public class Vista {
 	
 	//Menu para proveedores
 	public int MenuProveedores() {
+		System.out.println("\n---------Menu de Proveedores-----------");
 		System.out.println("1.- Insertar un nuevo Proveedor");
 		System.out.println("2.- Mostrar todos los Proveedores");
-		System.out.println("1.- Modificar un Proveedor");
-		System.out.println("1.- Eliminar un Proveedor");
+		System.out.println("3.- Modificar un Proveedor");
+		System.out.println("4.- Eliminar un Proveedor");
+		System.out.println("5.- Volver");
+		System.out.print("Ingrese una opcion: ");
 		
 		if (scanner.hasNextInt()) {
 			int opcion = scanner.nextInt();
@@ -65,10 +68,13 @@ public class Vista {
 	
 	//Menu para Articulos
 	public int MenuArticulos() {
+		System.out.println("\n---------Menu de Articulo-----------");
 		System.out.println("1.- Insertar un nuevo Articulo");
 		System.out.println("2.- Mostrar todos los Articulos");
-		System.out.println("1.- Modificar un Articulo");
-		System.out.println("1.- Eliminar un Articulo");
+		System.out.println("3.- Modificar un Articulo");
+		System.out.println("4.- Eliminar un Articulo");
+		System.out.println("5.- Volver");
+		System.out.print("Ingrese una opcion: ");
 		
 		if (scanner.hasNextInt()) {
 			int opcion = scanner.nextInt();
@@ -82,10 +88,13 @@ public class Vista {
 	
 	//Menu de Facturas
 	public int MenuFacturas() {
+		System.out.println("\n---------Menu de Facturas-----------");
 		System.out.println("1.- Insertar una nueva Factura");
 		System.out.println("2.- Mostrar todos las Facturas");
-		System.out.println("1.- Modificar una Factura");
-		System.out.println("1.- Eliminar una Factura");
+		System.out.println("3.- Modificar una Factura");
+		System.out.println("4.- Eliminar una Factura");
+		System.out.println("5.- Volver");
+		System.out.print("Ingrese una opcion: ");
 		
 		if (scanner.hasNextInt()) {
 			int opcion = scanner.nextInt();
@@ -99,10 +108,13 @@ public class Vista {
 	
 	//Menu de ventas
 	public int MenuVentas() {
+		System.out.println("\n---------Menu de Ventas-----------");
 		System.out.println("1.- Insertar una nueva Venta");
 		System.out.println("2.- Mostrar todas las Ventas");
-		System.out.println("1.- Modificar una Venta");
-		System.out.println("1.- Eliminar una Venta");
+		System.out.println("3.- Modificar una Venta");
+		System.out.println("4.- Eliminar una Venta");
+		System.out.println("5.- Volver");
+		System.out.print("Ingrese una opcion: ");
 		
 		if (scanner.hasNextInt()) {
 			int opcion = scanner.nextInt();

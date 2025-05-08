@@ -59,7 +59,7 @@ public class ClientesCRUD {
 			ResultSet rs = stmt.executeQuery(consulta); //Ejecutamos la consulta
 			
 			 if (!rs.next()) {
-		            System.out.println("No se encontró ninguna película con ese ID.");
+		            System.out.println("No se encontró ningun Cliente con ese ID.");
 		            return;
 		        }
 			 
@@ -67,10 +67,10 @@ public class ClientesCRUD {
 	 		System.out.println("\n --------Listado de Clientes-----------");
 	 		while (rs.next()) {
 	 			System.out.println("------------------------------");
-	 			System.out.println("ID: " + rs.getString("id_cliente")); // id_pelicula
-	             System.out.println("Nombre: " + rs.getString("nombre")); // id_pelicula
-	             System.out.println("Email: " + rs.getString("email")); // Titulo
-	             System.out.println("TLF: " + rs.getString("telefono")); // Director
+	 			System.out.println("ID: " + rs.getString("id_cliente")); // id_cliente
+	             System.out.println("Nombre: " + rs.getString("nombre")); // nombre
+	             System.out.println("Email: " + rs.getString("email")); // email
+	             System.out.println("TLF: " + rs.getString("telefono")); // telefono
 	 		}
 	 	
 	 		rs.close();

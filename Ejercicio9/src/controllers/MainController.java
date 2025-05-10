@@ -18,8 +18,7 @@ public class MainController {
 				case 1:
 					ClientesController clientesController = new ClientesController();
 					clientesController.iniciarCliente();
-					break;
-				
+					break;	
 				case 2:
 					ProveedoresController proveedoresController = new ProveedoresController();
 					proveedoresController.iniciarProveedor();
@@ -31,9 +30,11 @@ public class MainController {
 				case 4:
 					FacturasController  facturasController = new FacturasController();
 					facturasController.iniciarFactura();
+					break;
 				case 5:
 					VentasController ventasController = new VentasController();
 					ventasController.iniciarVenta();
+					break;
 				case 6:
 					InformeClientes informeClientes = new InformeClientes();
 					informeClientes.mostrarVentasPorCliente();
@@ -47,3 +48,5 @@ public class MainController {
 		}
 	}
 }
+
+
